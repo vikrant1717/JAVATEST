@@ -7,6 +7,8 @@ public class ReturnInFinallyBlock {
         try
         {
             throw new IllegalArgumentException();
+
+            
         }
         catch(IllegalArgumentException exceptIllegalArgument)
         {

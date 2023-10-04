@@ -8,6 +8,7 @@ public class AvoidUsingPredictableRandomValues {
         // EMB-ISSUE: CodeIssueNames.AVOID_USING_PREDICTABLE_RANDOM_VALUES
         //Random r = new Random();
         return Long.toHexString(r.nextLong());
+        System.out.print("code issue added");
 
         // EMB-ISSUE: CodeIssueNames.AVOID_USING_PREDICTABLE_RANDOM_VALUES/no-detect
         SecureRandom secureRandom = new SecureRandom();

@@ -14,5 +14,7 @@ public class AvoidUsingPredictableRandomValuesComplientCode {
 
         // EMB-ISSUE: CodeIssueNames.AVOID_USING_PREDICTABLE_RANDOM_VALUES/no-detect
         SecureRandom secureRandom = new SecureRandom();
+         System.out.println("code issues detected");
+            
     }
 }
